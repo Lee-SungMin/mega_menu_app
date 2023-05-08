@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingDefaultResource">
+
+    <font
+        android:font="@font/nanum_handwriting_delicious"
+        android:fontStyle="normal"
+        android:fontWeight="500"
+        app:font="@font/nanum_handwriting_delicious"
+        app:fontStyle="normal"
+        app:fontWeight="500" />
+
+</font-family>

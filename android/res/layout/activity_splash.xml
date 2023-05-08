@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/mega_food_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/gif_image"
+        android:layout_centerInParent="true"
+        android:paddingTop="10px"
+        android:paddingBottom="10px"
+        android:text="남부터미널 맛집 메가스터디 구내식당"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/gif_image"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/menu_loading_text"
+        android:text="메뉴 정보 훔쳐오는 중 🐾"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gif_image"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10px"
+        android:paddingBottom="10px"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/maker"
+        android:text="️Copyright. 써밍"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_loading_text"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp"/>
+
+</RelativeLayout>
