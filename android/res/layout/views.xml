@@ -1,0 +1,182 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/v1"
+        android:layout_width="250dp"
+        android:layout_height="390dp"
+        app:cardBackgroundColor="@color/blue_1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <TextView
+            android:id="@+id/mega_menu_mon_date"
+            android:text="MON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:paddingTop="35px"
+            android:paddingBottom="10px"
+            android:textColor="@android:color/background_light" android:textSize="26sp" />
+        <TextView
+            android:id="@+id/mega_menu_mon"
+            android:text="MON MENU"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:textAlignment="center"
+            android:textColor="@android:color/background_light" android:textSize="22sp" android:textStyle="normal"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/v2"
+        android:layout_width="250dp"
+        android:layout_height="390dp"
+        app:cardBackgroundColor="@color/blue_2"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <TextView
+            android:id="@+id/mega_menu_tue_date"
+            android:text="TUE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:paddingTop="35px"
+            android:paddingBottom="10px"
+            android:textColor="@android:color/background_light" android:textSize="26sp" />
+        <TextView
+            android:id="@+id/mega_menu_tue"
+            android:text="TUE MENU"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:textAlignment="center"
+            android:textColor="@android:color/background_light" android:textSize="22sp" android:textStyle="normal"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/v3"
+        android:layout_width="250dp"
+        android:layout_height="390dp"
+        app:cardBackgroundColor="@color/blue_3"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <TextView
+            android:id="@+id/mega_menu_wed_date"
+            android:text="WED"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:paddingTop="35px"
+            android:paddingBottom="10px"
+            android:textColor="@android:color/background_light" android:textSize="26sp" />
+        <TextView
+            android:id="@+id/mega_menu_wed"
+            android:text="WED MENU"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:textAlignment="center"
+            android:textColor="@android:color/background_light" android:textSize="22sp" android:textStyle="normal"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/v4"
+        android:layout_width="250dp"
+        android:layout_height="390dp"
+        app:cardBackgroundColor="@color/blue_4"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <TextView
+            android:id="@+id/mega_menu_thu_date"
+            android:text="THU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:paddingTop="35px"
+            android:paddingBottom="10px"
+            android:textColor="@android:color/background_light" android:textSize="26sp" />
+        <TextView
+            android:id="@+id/mega_menu_thu"
+            android:text="THU MENU"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:textAlignment="center"
+            android:textColor="@android:color/background_light" android:textSize="22sp" android:textStyle="normal"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/v5"
+        android:layout_width="250dp"
+        android:layout_height="390dp"
+        app:cardBackgroundColor="@color/blue_5"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <TextView
+            android:id="@+id/mega_menu_fri_date"
+            android:text="FRI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:paddingTop="35px"
+            android:paddingBottom="10px"
+            android:textColor="@android:color/background_light" android:textSize="26sp" />
+        <TextView
+            android:id="@+id/mega_menu_fri"
+            android:text="FRI MENU"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10px"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:textAlignment="center"
+            android:textColor="@android:color/background_light" android:textSize="22sp" android:textStyle="normal"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:text="구내식당 이번주 메뉴 🧑‍🍳"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/this_week" app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="15dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="10dp"
+        android:layout_marginTop="30dp" app:layout_constraintTop_toTopOf="parent"
+        android:textSize="24sp" android:textStyle="bold"/>
+
+    <TextView
+        android:text="(날짜만 적힌 날은 점심 식사를 제공하지 않습니다)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/not_menu" app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="15dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp" app:layout_constraintTop_toBottomOf="@id/this_week"
+        android:textSize="16sp" android:textStyle="bold"/>
+
+    <TextView
+        android:text=" 점심 식사 맛있게 드세요 🍴\n(메뉴 업데이트는 주1회 입니다)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewBottom" app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="15dp" app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp" app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="30dp"
+        android:textSize="20sp" android:textStyle="bold"/>
+
+</merge>
