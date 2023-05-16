@@ -59,6 +59,12 @@ Android Studio default JDK | ver 11.0.15
 
 (SDK : minSdk = 24, targetSdk = 33)
 
+[ iOS ]
+
+Xcode Version 14.3 (14E222b)
+
+(iOS Deployment Target = 15.0)
+
 
 ### 사용 플랫폼
 
@@ -91,7 +97,7 @@ Android Studio default JDK | ver 11.0.15
 - import requests
  
 
-[ Java ] Android Studion 에서 사용
+[ Java ] Android Studio 에서 사용
 
 - import android.os.AsyncTask;
 
@@ -118,11 +124,22 @@ Android Studio default JDK | ver 11.0.15
 - import java.net.URL;
 
 
+[ Swift ] Xcode 에서 사용(Swift 5.8)
+
+- import UIKit
+
+- import SwiftUI
+
+- import Lottie(4.2.0 ver)
+
+
 ## 💻 개발 과정
 
 ### 시스템 아키텍처 다이어그램
 
-![image](https://user-images.githubusercontent.com/55132964/235295371-cda71a1a-e481-4063-853a-397be30849a0.png)
+![rebuild_mega_menu_App](https://github.com/Lee-SungMin/mega_menu_app/assets/55132964/bc2665b0-be0a-468a-8868-f8d5b51c02dd)
+
+_(관리자는 매주 1회 메뉴 업데이트를 위해 S3에 이미지를 저장한다.)_
 
 1. AWS S3 에 주간 식단표 이미지를 올린다.
 
@@ -132,11 +149,17 @@ Android Studio default JDK | ver 11.0.15
 
 4. OCR 을 통해 나온 텍스트 추출 결과를 전달받는다.
 
-5. 전달받은 텍스트 결과를 AWS API Gateway(Http 방식)으로 전달한다.
+5. 전달받은 텍스트 결과를 Amazon DynamoDB에 저장한다.
 
-6. 해당 html 페이지를 안드로이드 스튜디오에 전달한다.
+_(사용자는 6~9번 과정을 통해 서비스를 이용하게 된다.)_
 
-7. 전달받은 내용을 앱 화면에 띄운다.
+6. 사용자가 안드로이드 또는 iOS를 통해 앱을 실행시키면, 연결된 API Gateway에 HTTP를 요청한다.
+
+7. Gateway와 트리거로 연결된 Lambda 함수는 DynamoDB에서 데이터를 받아온다.
+
+8. 받아온 텍스트 결과를 연결된 API Gateway에 HTTP를 전달한다.
+
+9. 전달받은 내용을 앱 화면에 띄운다.
 
 
 ### 개발 방법(코드, 모듈 구조)
@@ -145,12 +168,14 @@ Android Studio default JDK | ver 11.0.15
 
 전체적인 개발 방법과 세팅까지 확인하고 싶다면, 아래의 블로그를 참고하시면 됩니다.
 
+_추가적인 개발 진행 사항은 블로그에 업로드하는대로 아래에 링크를 추가하겠습니다._
+
 https://summing.tistory.com/70
 
 
 
 ## ⚠️ 개선 사항
 
-- Lambda 함수에서의 OCR 호출 개선
+- ~~Lambda 함수에서의 OCR 호출 개선~~(수정 완료)
 
-- 현실적인 서비스 배포 가능성
+- ~~현실적인 서비스 배포 가능성~~(배포 진행중)
