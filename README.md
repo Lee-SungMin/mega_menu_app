@@ -82,6 +82,8 @@ Xcode Version 14.3 (14E222b)
 
 - AWS API Gateway
 
+- AWS DynamoDB
+
 ### 사용 언어 및 라이브러리
 
 [ Python ] AWS Lambda 에서 사용(Python 3.8)
