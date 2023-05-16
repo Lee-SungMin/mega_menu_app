@@ -1,6 +1,6 @@
 //
 //  CarouselView.swift
-//  re_test
+//  C_Mega_Menu
 //
 //  Created by 이성민 on 2023/05/13.
 //
