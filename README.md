@@ -181,3 +181,5 @@ https://summing.tistory.com/70
 - ~~Lambda 함수에서의 OCR 호출 개선~~(수정 완료)
 
 - ~~현실적인 서비스 배포 가능성~~(배포 진행중)
+
+- Lambda 함수 수정 자동화 가능성
