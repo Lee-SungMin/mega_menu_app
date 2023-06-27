@@ -175,8 +175,11 @@ _(사용자는 6~9번 과정을 통해 서비스를 이용하게 된다.)_
 
 _추가적인 개발 진행 사항은 블로그에 업로드하는대로 아래에 링크를 추가하겠습니다._
 
-https://summing.tistory.com/70
+[ AWS Lambda 및 S3, Naver OCR 로 식단표 애플리케이션 만들기 ] https://summing.tistory.com/70
 
+[ 구내식당 식단표 애플리케이션 개선, 앱 출시까지 ] https://summing.tistory.com/74
+
+[ 앱 서비스 운영 한 달 후기 ] https://summing.tistory.com/75
 
 
 ## ⚠️ 개선 사항
